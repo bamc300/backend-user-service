@@ -538,7 +538,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ## 👥 Equipo
 
-- **Ditech Team** - *Desarrollo inicial* - [support@ditech.com](mailto:support@ditech.com)
+- Bryant Alfonso
 
 ## 🔗 Enlaces Útiles
 
