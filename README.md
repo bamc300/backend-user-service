@@ -442,10 +442,11 @@ El proyecto está configurado para **Java 21** con Spring Boot 3.5.6:
 SPRING_PROFILES_ACTIVE=default
 JAVA_OPTS=-Xmx512m -Xms256m
 
-# Base de datos (si usas externa)
-DB_URL=jdbc:postgresql://localhost:5432/userdb
-DB_USERNAME=postgres
-DB_PASSWORD=password
+# Base de datos H2 (configuración por defecto)
+SPRING_DATASOURCE_URL=jdbc:h2:mem:userdb
+SPRING_DATASOURCE_USERNAME=sa
+SPRING_DATASOURCE_PASSWORD=password
+
 
 # Configuración de Grafana
 GF_SECURITY_ADMIN_PASSWORD=admin
